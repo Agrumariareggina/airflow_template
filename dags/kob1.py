@@ -86,7 +86,7 @@ with DAG(
     dag_id='sap_kob1_etl',
     default_args=default_args,
     description='Fetch KOB1 data from SAP API and load to Postgres',
-    schedule_interval=''*/30 * * * *'',  
+    schedule_interval='*/30 * * * *', 
     start_date=datetime(2024, 1, 1),
     catchup=False,
     tags=['sap', 'kob1', 'etl'],
