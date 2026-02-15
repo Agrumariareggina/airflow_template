@@ -9,7 +9,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.task_group import TaskGroup
 
-from utils.helpers import replace_table
+from include.utils.helpers import replace_table
 
 
 # =========================
