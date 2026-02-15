@@ -98,7 +98,6 @@ with DAG(
     run_etl = PythonOperator(
         task_id='fetch_and_load_kob1',
         python_callable=fetch_and_load_kob1,
-        provide_context=True,
     )
 
     run_etl
