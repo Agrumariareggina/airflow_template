@@ -10,3 +10,6 @@ RUN pip install --no-cache-dir -r /requirements.txt
 
 # Switch back to the default Airflow user
 USER airflow
+
+COPY . /usr/local/airflow
+RUN pip install -e .
