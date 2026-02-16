@@ -6,8 +6,8 @@ script_directory = os.path.dirname(os.path.abspath(__file__))
 print("Directory of the Current Script:", script_directory)
 
 from airflow import DAG
-from airflow.operators.python import PythonOperator
-from airflow.utils.task_group import TaskGroup
+from airflow.providers.standard.operators.python import PythonOperator
+from airflow.sdk import TaskGroup
 
 from utils.helpers import replace_table
 
