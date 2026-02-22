@@ -13,7 +13,7 @@ from utils.helpers import replace_table
 
 
 # =========================
-# CONFIGURATION
+# CONFIGURATION 
 # =========================
 TABLE_NAME = 'kob1'
 SCHEMA = 'sap'
