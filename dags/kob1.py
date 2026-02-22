@@ -17,7 +17,7 @@ from utils.helpers import replace_table
 # =========================
 TABLE_NAME = 'kob1'
 SCHEMA = 'sap'
-ENDPOINT = "https://10.0.2.17:8001/sap/bc/ZCLKOB1API"
+ENDPOINT = "http://172.31.29.53:8000/sap/bc/ZCLKOB1API"
 
 
 # =========================
